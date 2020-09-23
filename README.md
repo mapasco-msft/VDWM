@@ -1,4 +1,4 @@
-# VDWM
+# VDWM Virtual Desktop Window Manager
 
 Portable .exe contained in zip folder
 
