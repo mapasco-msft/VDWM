@@ -8,6 +8,11 @@ namespace VDWM.Core
 {
     public class DesktopManager
     {
+        public DesktopManager()
+        {
+            // For Faster startup
+            VirtualDesktop.GetDesktops();
+        }
         private ICollection<VirtualDesktop> desktops
         {
             get => VirtualDesktop.GetDesktops();
@@ -21,8 +26,15 @@ namespace VDWM.Core
 
         public bool MoveWindowToVD(int desktopIdx)
         {
-            var targetDesktop = desktops.ElementAt(desktopIdx - 1);
-            VirtualDesktopHelper.MoveToDesktop(GetForegroundWindow(), targetDesktop);
+            if (desktopIdx > desktops.Count)
+            {
+
+            }
+            else
+            {
+                var targetDesktop = desktops.ElementAt(desktopIdx - 1);
+                VirtualDesktopHelper.MoveToDesktop(GetForegroundWindow(), targetDesktop);
+            }
             return true;
             
         }

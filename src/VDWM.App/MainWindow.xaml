@@ -8,8 +8,11 @@
         Title="MainWindow" Height="200" Width="400">
     <Grid Loaded="Grid_Loaded">
         <StackPanel>
+            <TextBlock FontWeight="Bold">VDWM</TextBlock>
             <TextBlock>
-                To switch to a virtual desktop type: Control, Shift, number
+                To switch to a virtual desktop type: Control, Shift, 1-9. <LineBreak />
+                To move your current app to a virtual desktop type: Control, Alt, 1-9. <LineBreak />
+                You can minimize this window.
             </TextBlock>
         </StackPanel>
     </Grid>

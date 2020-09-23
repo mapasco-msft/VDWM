@@ -33,7 +33,8 @@ namespace VDWM.App
 
         private DesktopManager dwm;
 
-        private const int HOT_KEY = 6; // control + shift
+        private const int SWITCH_HOT_KEY = 6; // control + shift
+        private const int MOVE_HOT_KEY = 3; // control + alt
         private IntPtr windowHndl;
 
         private int[] keys = { 0x30, 0x31, 0x32, 0x33, 0x34, 0x35, 0x36, 0x37, 0x38, 0x39 };
@@ -51,7 +52,8 @@ namespace VDWM.App
             windowHndl = new WindowInteropHelper(this).Handle;
             for (int i = 0; i < keys.Length; i++)
             {
-                RegisterHotKey(windowHndl, i, HOT_KEY, keys[i]);
+                RegisterHotKey(windowHndl, i, SWITCH_HOT_KEY, keys[i]);
+                RegisterHotKey(windowHndl, i+keys.Length, MOVE_HOT_KEY, keys[i]);
             }
             var source = HwndSource.FromHwnd(windowHndl);
             source.AddHook(WndProc);
@@ -62,6 +64,7 @@ namespace VDWM.App
             for (int i = 0; i < keys.Length; i++)
             {
                 UnregisterHotKey(windowHndl, i);
+                UnregisterHotKey(windowHndl, i+keys.Length);
             }
             base.OnClosing(e);
         }
@@ -71,8 +74,19 @@ namespace VDWM.App
             // Handle messages...
             if (msg == 0x0312)
             {
-                int vdId = (int)wParam;
-                dwm.ChangeToVD(vdId);
+
+                int actionId = lParam.ToInt32();
+                int keyId = wParam.ToInt32();
+                int vdId = keyId > keys.Length ? keyId - keys.Length : keyId;
+                int action = (actionId & 0xF);
+                if (action == SWITCH_HOT_KEY)
+                {
+                    dwm.ChangeToVD(vdId);
+                } else if (action == MOVE_HOT_KEY)
+                {
+                    dwm.MoveWindowToVD(vdId);
+                    dwm.ChangeToVD(vdId);
+                }
                 handled = true;
             }
 
