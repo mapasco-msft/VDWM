@@ -15,3 +15,5 @@ Move your current focused window with:
 ```
 Control + Alt + <1-9>
 ```
+
+![VDWM demo gif](./media/VDWM.gif)
