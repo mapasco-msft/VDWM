@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VDWM.Core", "VDWM.Core\VDWM.Core.csproj", "{8868EB60-494A-4796-8314-3CADDA57FACC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VDWM.App", "VDWM.App\VDWM.App.csproj", "{17DF9011-4389-4E57-B441-44B87478E094}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8868EB60-494A-4796-8314-3CADDA57FACC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8868EB60-494A-4796-8314-3CADDA57FACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8868EB60-494A-4796-8314-3CADDA57FACC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8868EB60-494A-4796-8314-3CADDA57FACC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17DF9011-4389-4E57-B441-44B87478E094}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17DF9011-4389-4E57-B441-44B87478E094}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17DF9011-4389-4E57-B441-44B87478E094}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17DF9011-4389-4E57-B441-44B87478E094}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {36082B01-743F-410C-99BA-DC61ABCA0383}
+	EndGlobalSection
+EndGlobal

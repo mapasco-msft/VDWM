@@ -1,0 +1,9 @@
+C:\Users\Matt\source\repos\VDWM\VDWM.Core\bin\Debug\netstandard2.0\VDWM.Core.deps.json
+C:\Users\Matt\source\repos\VDWM\VDWM.Core\bin\Debug\netstandard2.0\VDWM.Core.dll
+C:\Users\Matt\source\repos\VDWM\VDWM.Core\obj\Debug\netstandard2.0\VDWM.Core.csprojAssemblyReference.cache
+C:\Users\Matt\source\repos\VDWM\VDWM.Core\obj\Debug\netstandard2.0\VDWM.Core.AssemblyInfoInputs.cache
+C:\Users\Matt\source\repos\VDWM\VDWM.Core\obj\Debug\netstandard2.0\VDWM.Core.AssemblyInfo.cs
+C:\Users\Matt\source\repos\VDWM\VDWM.Core\obj\Debug\netstandard2.0\VDWM.Core.csproj.CoreCompileInputs.cache
+C:\Users\Matt\source\repos\VDWM\VDWM.Core\bin\Debug\netstandard2.0\VDWM.Core.pdb
+C:\Users\Matt\source\repos\VDWM\VDWM.Core\obj\Debug\netstandard2.0\VDWM.Core.dll
+C:\Users\Matt\source\repos\VDWM\VDWM.Core\obj\Debug\netstandard2.0\VDWM.Core.pdb

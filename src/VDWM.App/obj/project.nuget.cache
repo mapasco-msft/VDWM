@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "dgSpecHash": "fb0JhQH4ckT/k0eafFfeSVwWfXitQCGQS0Vl6V2rIAVR95fTxIihilULTvbSkWpBUXiPdXJKCZ019ZtpjER9OQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Matt\\source\\repos\\VDWM\\VDWM.App\\VDWM.App.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Matt\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.0.0-beta2.20059.3\\microsoft.codeanalysis.analyzers.3.0.0-beta2.20059.3.nupkg.sha512",
+    "C:\\Users\\Matt\\.nuget\\packages\\microsoft.codeanalysis.common\\3.5.0\\microsoft.codeanalysis.common.3.5.0.nupkg.sha512",
+    "C:\\Users\\Matt\\.nuget\\packages\\microsoft.codeanalysis.csharp\\3.5.0\\microsoft.codeanalysis.csharp.3.5.0.nupkg.sha512",
+    "C:\\Users\\Matt\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.collections.immutable\\1.5.0\\system.collections.immutable.1.5.0.nupkg.sha512",
+    "C:\\Users\\Matt\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
+    "C:\\Users\\Matt\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.reflection.primitives\\4.3.0\\system.reflection.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\Matt\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\Matt\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.6.0\\system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512",
+    "C:\\Users\\Matt\\.nuget\\packages\\system.runtime.loader\\4.3.0\\system.runtime.loader.4.3.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
+    "C:\\Users\\Matt\\.nuget\\packages\\system.text.encoding.codepages\\4.5.1\\system.text.encoding.codepages.4.5.1.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
+    "C:\\Users\\Matt\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.3\\system.threading.tasks.extensions.4.5.3.nupkg.sha512",
+    "C:\\Users\\Matt\\.nuget\\packages\\virtualdesktop\\4.0.1\\virtualdesktop.4.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
